@@ -2,6 +2,7 @@ import numpy as np
 import cv2
 #events=[i for i in dir(cv2) if 'EVENT' in i]
 #print(events)
+#trial for change for me.
 def sagar(event,x,y,flags,param):
   if event==cv2.EVENT_FLAG_LBUTTON:
       print(x, ', ',y)
